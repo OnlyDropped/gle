@@ -1,0 +1,32 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+.header {
+  padding-top: 32px;
+  background-color: $bg;
+  &__top {
+    background-color: #fff;
+  }
+  &__inner {
+    padding: 19px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__nav {
+    display: flex;
+    margin-left: auto;
+  }
+  &__btn {
+    border: 1px solid #354bb4;
+    padding: 12px 30px;
+    color: $link;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  &__link {
+  }
+}
+@import "media";

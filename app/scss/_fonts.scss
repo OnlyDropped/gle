@@ -1,0 +1,41 @@
+@font-face{
+  font-family: 'PTSans-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('PTSans-Regular'),
+       url('../fonts/PTSans-Regular.woff2') format("woff2"),
+       url('../fonts/PTSans-Regular.woff') format("woff");
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'GothamPro';
+  font-weight: 400;
+  font-style: normal;
+  src: local('GothamPro'),
+       url('../fonts/GothamPro.woff2') format("woff2"),
+       url('../fonts/GothamPro.woff') format("woff");
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'GothamPro-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('GothamPro-Bold'),
+       url('../fonts/GothamPro-Bold.woff2') format("woff2"),
+       url('../fonts/GothamPro-Bold.woff') format("woff");
+  font-display: swap;
+}
+//@font-face{
+//  font-family: 'Roboto-Black';
+//  font-weight: 900;
+//  font-style: normal;
+//  src: local('Roboto-Black'),
+//       url('../fonts/Roboto-Black.woff2') format("woff2"),
+//       url('../fonts/Roboto-Black.woff') format("woff");
+//  font-display: swap;
+//}
+//
+//
+//
