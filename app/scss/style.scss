@@ -4,29 +4,81 @@
 @import "libs";
 @import "global";
 .header {
-  padding-top: 32px;
-  background-color: $bg;
-  &__top {
-    background-color: #fff;
-  }
+  padding: 50px 0 53px;
   &__inner {
-    padding: 19px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  &__nav {
+}
+.menu {
+  &__list {
     display: flex;
-    margin-left: auto;
   }
-  &__btn {
-    border: 1px solid #354bb4;
-    padding: 12px 30px;
-    color: $link;
-    font-size: 18px;
-    line-height: 20px;
+  &__list-item + .menu__list-item {
+    padding-left: 35px;
   }
-  &__link {
+  &__list-link {
+    color: $default;
+    @extend %Rubik-Medium-500;
+  }
+}
+.user-nav {
+  display: flex;
+  align-items: center;
+  &__search {
+    width: 51px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #a3bbc8;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__order {
+    width: 51px;
+    height: 52px;
+    background-color: #a3bbc8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+  &__box {
+    display: flex;
+    margin: 0 17px 0 20px;
+    background-color: #fcd7b6;
+    border-radius: 26px;
+    padding: 22px 41px 11px 40px;
+  }
+  &__line {
+    width: 1px;
+    height: 32px;
+    background-color: #ffffff;
+    margin: 0 25px 0 28px;
+  }
+  &__heart,
+  &__cart {
+    position: relative;
+  }
+  &__num {
+    position: absolute;
+    @extend %DMSans-Regular-400;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    font-family: "DM Sans";
+    background-color: #ffffff;
+    font-size: 10px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #243f4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -8px;
+    right: -8px;
   }
 }
 @import "media";
