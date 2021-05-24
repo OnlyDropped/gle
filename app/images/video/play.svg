@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130" width="130" height="130">
+	<title>Form 24</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.4;fill: #a3bbc8 } 
+		.shp1 { fill: #a3bbc8 } 
+		.shp2 { fill: #ffffff } 
+	</style>
+	<path id="Ellipse 11" class="shp0" d="M65.5 2C100.57 2 129 30.43 129 65.5C129 100.57 100.57 129 65.5 129C30.43 129 2 100.57 2 65.5C2 30.43 30.43 2 65.5 2Z" />
+	<path id="Ellipse 11" class="shp1" d="M65 16C92.06 16 114 37.94 114 65C114 92.06 92.06 114 65 114C37.94 114 16 92.06 16 65C16 37.94 37.94 16 65 16Z" />
+	<path id="Form 24" class="shp2" d="M75.68 66.74L59.64 76.54C59.14 76.84 58.56 77 57.98 77C57.5 77 57.02 76.89 56.58 76.68C55.61 76.21 55 75.29 55 74.29L55 54.7C55 53.7 55.61 52.78 56.58 52.31C57.55 51.85 58.73 51.9 59.64 52.46L75.68 62.25C76.51 62.76 77 63.6 77 64.5C77 65.4 76.51 66.24 75.68 66.74Z" />
+</svg>

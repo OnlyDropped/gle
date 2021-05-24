@@ -19,3 +19,9 @@ body {
   margin: 0 auto;
   padding: 0px 15px;
 }
+.title {
+  @extend %DMSans-Bold-700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #1a1a1a;
+}

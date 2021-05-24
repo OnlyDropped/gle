@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>waxa</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -19,7 +21,7 @@
         </a>
         <nav class="menu">
           <ul class="menu__list">
-            <li class="menu__list-item">     
+            <li class="menu__list-item">
               <a class="menu__list-link" href="#">Home +</a>
             </li>
             <li class="menu__list-item">
@@ -62,11 +64,848 @@
     </div>
   </header>
   <main class="main">
+    <section class="trendy">
+      <div class="container">
+        <div class="trendy__inner">
+          <div class="trendy__slider">
+            <div class="trendy__slider-item">
+              <div class="trendy__slider-info">
+                <h1 class="trendy__slider-title">SMART AND TRENDY</h1>
+                <p class="trendy__slider-description">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt</p>
+                <button class="trendy__slider-btn">
+                  Shop Now
+                  <img src="images/trendy/arrow-right.svg" alt="">
+                </button>
+              </div>
+              <img class="trendy__slider-img" src="images/trendy/bg.png" alt="">
+            </div>
+            <div class="trendy__slider-item">
+              <div class="trendy__slider-info">
+                <h1 class="trendy__slider-title">SMART AND TRENDY</h1>
+                <p class="trendy__slider-description">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt
+                </p>
+                <button class="trendy__slider-btn">
+                  Shop Now
+                  <img src="images/trendy/arrow-right.svg" alt="">
+                </button>
+              </div>
+              <img class="trendy__slider-img" src="images/trendy/bg.png" alt="">
+            </div>
+            <div class="trendy__slider-item">
+              <div class="trendy__slider-info">
+                <h1 class="trendy__slider-title">SMART AND TRENDY</h1>
+                <p class="trendy__slider-description">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt
+                </p>
+                <button class="trendy__slider-btn">
+                  Shop Now
+                  <img src="images/trendy/arrow-right.svg" alt="">
+                </button>
+              </div>
+              <img class="trendy__slider-img" src="images/trendy/bg.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="features__inner">
+          <div class="features__wrapper">
+            <div class="features__list">
+              <div class="features__list-item">
+                <img class="features__list-img" src="images/features/1.svg" alt="" class="">
+                <div class="features__list-info">
+                  <span class="features__list-span">Support 24/7.</span>
+                  <p class="features__list-text" style="max-width: 197px;">Contact us 24 hours a day,
+                    7 days a week.</p>
+                </div>
+              </div>
+              <div class="features__list-item">
+                <img class="features__list-img" src="images/features/2.svg" alt="" class="">
+                <div class="features__list-info">
+                  <span class="features__list-span">Delivery.</span>
+                  <p class="features__list-text">Free shipping on all US order.</p>
+                </div>
+              </div>
+              <div class="features__list-item">
+                <img class="features__list-img" src="images/features/3.svg" alt="" class="">
+                <div class="features__list-info">
+                  <span class="features__list-span">100% Payment secure.</span>
+                  <p class="features__list-text" style="max-width: 203px;">We ensure secure payment
+                    with PEV.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products">
+      <div class="container">
+        <div class="products__inner">
+          <h2 class="title products__title">Products of the week</h2>
+          <div class="products__nav">
+            <button class="products__nav-btn products__nav-btn--active" data-filter=".category-all">All</button>
+            <button class="products__nav-btn" data-filter=".category-WhiteChair">Furnitures</button>
+            <button class="products__nav-btn" data-filter=".category-WoodenChair">Chairs </button>
+            <button class="products__nav-btn" data-filter=".category-WoodenRadio">Lighting</button>
+            <button class="products__nav-btn" data-filter=".category-RetroTable">Decor</button>
+          </div>
+          <div class="products__items">
+            <div class="products-item mix category-WoodenRadio category-all" style="padding: 28px 42px 38px;">
+              <div class="products-item__img-box" style="margin-bottom: 78px">
+                <img class="products-item__images" src="images/products/1.png" alt="">
+                <div class="products-item__link-box">
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      width="24" height="24">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
 
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M21.45 18.8L16.86 14.21C16.18 15.27 15.27 16.18 14.21 16.86L18.8 21.45C19.53 22.18 20.72 22.18 21.45 21.45C22.18 20.72 22.18 19.53 21.45 18.8ZM17 9.5C17 5.36 13.64 2 9.5 2C5.36 2 2 5.36 2 9.5C2 13.64 5.36 17 9.5 17C13.64 17 17 13.64 17 9.5ZM9.5 15.12C6.4 15.12 3.87 12.6 3.87 9.5C3.87 6.4 6.4 3.87 9.5 3.87C12.6 3.87 15.12 6.4 15.12 9.5C15.12 12.6 12.6 15.12 9.5 15.12ZM5.12 9.5L6.37 9.5C6.37 7.78 7.78 6.37 9.5 6.37L9.5 5.12C7.09 5.12 5.12 7.09 5.12 9.5Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 23"
+                      width="26" height="23">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #ffffff
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M2.81 3.63L5.15 3.63L8.47 15.67C8.57 16.02 8.89 16.26 9.26 16.26L19.47 16.26C19.8 16.26 20.08 16.07 20.22 15.78L23.93 7.22C24.04 6.96 24.02 6.67 23.87 6.44C23.72 6.21 23.46 6.07 23.19 6.07L11.9 6.07C11.45 6.07 11.09 6.44 11.09 6.89C11.09 7.34 11.45 7.71 11.9 7.71L21.94 7.71L18.93 14.63L9.87 14.63L6.54 2.6C6.45 2.24 6.12 2 5.76 2L2.81 2C2.37 2 2 2.37 2 2.81C2 3.26 2.37 3.63 2.81 3.63ZM8.48 22C9.5 22 10.33 21.17 10.33 20.15C10.33 19.13 9.5 18.3 8.48 18.3C7.47 18.3 6.64 19.13 6.64 20.15C6.64 21.17 7.47 22 8.48 22ZM20.01 22C20.05 22 20.11 22 20.15 22C20.64 21.96 21.09 21.74 21.41 21.36C21.74 20.99 21.89 20.52 21.86 20.02C21.79 19.01 20.91 18.23 19.89 18.3C18.87 18.37 18.11 19.27 18.18 20.27C18.25 21.24 19.05 22 20.01 22Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"
+                      width="26" height="21">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M23.99 7.82C23.91 6.27 23.25 4.81 22.14 3.72C21.02 2.61 19.55 2 18 2C15.69 2 14.05 3.78 13.18 4.74C13.13 4.8 13.07 4.86 13.02 4.91C12.99 4.88 12.96 4.85 12.94 4.82C12.13 3.9 10.46 2 8 2C6.45 2 4.98 2.61 3.86 3.72C2.75 4.81 2.09 6.27 2.01 7.82C1.93 9.36 2.32 10.7 3.28 12.16C4.14 13.47 6.38 15.53 8.04 16.91C9.75 18.32 11.99 20 13.01 20C14.04 20 16.28 18.32 17.97 16.91C19.62 15.54 21.85 13.48 22.72 12.16C23.37 11.17 24.1 9.79 23.99 7.82ZM21.61 11.43C20.98 12.39 19.2 14.17 17.18 15.85C14.78 17.85 13.35 18.64 13.01 18.67C12.67 18.64 11.24 17.84 8.82 15.83C6.79 14.15 5.01 12.38 4.39 11.43C3.59 10.22 3.27 9.13 3.33 7.89C3.47 5.37 5.56 3.32 8 3.32C9.86 3.32 11.21 4.86 11.94 5.69C12.37 6.18 12.6 6.45 13 6.45C13.41 6.45 13.67 6.16 14.15 5.64C14.94 4.77 16.27 3.32 18 3.32C20.44 3.32 22.53 5.37 22.67 7.89C22.74 9.15 22.42 10.2 21.61 11.43Z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="products-item__text">Wooden radio</p>
+              <span class="products-item__num">$29.00</span>
+            </div>
+            <div class="products-item mix category-WoodenChair category-all" style="padding: 34px 61px 38px;">
+              <div class="products-item__img-box">
+                <img class="products-item__images" src="images/products/2.png" alt="">
+                <div class="products-item__link-box">
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      width="24" height="24">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M21.45 18.8L16.86 14.21C16.18 15.27 15.27 16.18 14.21 16.86L18.8 21.45C19.53 22.18 20.72 22.18 21.45 21.45C22.18 20.72 22.18 19.53 21.45 18.8ZM17 9.5C17 5.36 13.64 2 9.5 2C5.36 2 2 5.36 2 9.5C2 13.64 5.36 17 9.5 17C13.64 17 17 13.64 17 9.5ZM9.5 15.12C6.4 15.12 3.87 12.6 3.87 9.5C3.87 6.4 6.4 3.87 9.5 3.87C12.6 3.87 15.12 6.4 15.12 9.5C15.12 12.6 12.6 15.12 9.5 15.12ZM5.12 9.5L6.37 9.5C6.37 7.78 7.78 6.37 9.5 6.37L9.5 5.12C7.09 5.12 5.12 7.09 5.12 9.5Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 23"
+                      width="26" height="23">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #ffffff
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M2.81 3.63L5.15 3.63L8.47 15.67C8.57 16.02 8.89 16.26 9.26 16.26L19.47 16.26C19.8 16.26 20.08 16.07 20.22 15.78L23.93 7.22C24.04 6.96 24.02 6.67 23.87 6.44C23.72 6.21 23.46 6.07 23.19 6.07L11.9 6.07C11.45 6.07 11.09 6.44 11.09 6.89C11.09 7.34 11.45 7.71 11.9 7.71L21.94 7.71L18.93 14.63L9.87 14.63L6.54 2.6C6.45 2.24 6.12 2 5.76 2L2.81 2C2.37 2 2 2.37 2 2.81C2 3.26 2.37 3.63 2.81 3.63ZM8.48 22C9.5 22 10.33 21.17 10.33 20.15C10.33 19.13 9.5 18.3 8.48 18.3C7.47 18.3 6.64 19.13 6.64 20.15C6.64 21.17 7.47 22 8.48 22ZM20.01 22C20.05 22 20.11 22 20.15 22C20.64 21.96 21.09 21.74 21.41 21.36C21.74 20.99 21.89 20.52 21.86 20.02C21.79 19.01 20.91 18.23 19.89 18.3C18.87 18.37 18.11 19.27 18.18 20.27C18.25 21.24 19.05 22 20.01 22Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"
+                      width="26" height="21">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M23.99 7.82C23.91 6.27 23.25 4.81 22.14 3.72C21.02 2.61 19.55 2 18 2C15.69 2 14.05 3.78 13.18 4.74C13.13 4.8 13.07 4.86 13.02 4.91C12.99 4.88 12.96 4.85 12.94 4.82C12.13 3.9 10.46 2 8 2C6.45 2 4.98 2.61 3.86 3.72C2.75 4.81 2.09 6.27 2.01 7.82C1.93 9.36 2.32 10.7 3.28 12.16C4.14 13.47 6.38 15.53 8.04 16.91C9.75 18.32 11.99 20 13.01 20C14.04 20 16.28 18.32 17.97 16.91C19.62 15.54 21.85 13.48 22.72 12.16C23.37 11.17 24.1 9.79 23.99 7.82ZM21.61 11.43C20.98 12.39 19.2 14.17 17.18 15.85C14.78 17.85 13.35 18.64 13.01 18.67C12.67 18.64 11.24 17.84 8.82 15.83C6.79 14.15 5.01 12.38 4.39 11.43C3.59 10.22 3.27 9.13 3.33 7.89C3.47 5.37 5.56 3.32 8 3.32C9.86 3.32 11.21 4.86 11.94 5.69C12.37 6.18 12.6 6.45 13 6.45C13.41 6.45 13.67 6.16 14.15 5.64C14.94 4.77 16.27 3.32 18 3.32C20.44 3.32 22.53 5.37 22.67 7.89C22.74 9.15 22.42 10.2 21.61 11.43Z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="products-item__text">Wooden chair</p>
+              <span class="products-item__num">$29.00</span>
+            </div>
+            <div class="products-item mix category-WhiteChair category-all" style="padding: 80px 23px 38px;">
+              <div class="products-item__img-box">
+                <img class="products-item__images" src="images/products/3.png" alt="">
+                <div class="products-item__link-box">
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      width="24" height="24">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M21.45 18.8L16.86 14.21C16.18 15.27 15.27 16.18 14.21 16.86L18.8 21.45C19.53 22.18 20.72 22.18 21.45 21.45C22.18 20.72 22.18 19.53 21.45 18.8ZM17 9.5C17 5.36 13.64 2 9.5 2C5.36 2 2 5.36 2 9.5C2 13.64 5.36 17 9.5 17C13.64 17 17 13.64 17 9.5ZM9.5 15.12C6.4 15.12 3.87 12.6 3.87 9.5C3.87 6.4 6.4 3.87 9.5 3.87C12.6 3.87 15.12 6.4 15.12 9.5C15.12 12.6 12.6 15.12 9.5 15.12ZM5.12 9.5L6.37 9.5C6.37 7.78 7.78 6.37 9.5 6.37L9.5 5.12C7.09 5.12 5.12 7.09 5.12 9.5Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 23"
+                      width="26" height="23">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #ffffff
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M2.81 3.63L5.15 3.63L8.47 15.67C8.57 16.02 8.89 16.26 9.26 16.26L19.47 16.26C19.8 16.26 20.08 16.07 20.22 15.78L23.93 7.22C24.04 6.96 24.02 6.67 23.87 6.44C23.72 6.21 23.46 6.07 23.19 6.07L11.9 6.07C11.45 6.07 11.09 6.44 11.09 6.89C11.09 7.34 11.45 7.71 11.9 7.71L21.94 7.71L18.93 14.63L9.87 14.63L6.54 2.6C6.45 2.24 6.12 2 5.76 2L2.81 2C2.37 2 2 2.37 2 2.81C2 3.26 2.37 3.63 2.81 3.63ZM8.48 22C9.5 22 10.33 21.17 10.33 20.15C10.33 19.13 9.5 18.3 8.48 18.3C7.47 18.3 6.64 19.13 6.64 20.15C6.64 21.17 7.47 22 8.48 22ZM20.01 22C20.05 22 20.11 22 20.15 22C20.64 21.96 21.09 21.74 21.41 21.36C21.74 20.99 21.89 20.52 21.86 20.02C21.79 19.01 20.91 18.23 19.89 18.3C18.87 18.37 18.11 19.27 18.18 20.27C18.25 21.24 19.05 22 20.01 22Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"
+                      width="26" height="21">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M23.99 7.82C23.91 6.27 23.25 4.81 22.14 3.72C21.02 2.61 19.55 2 18 2C15.69 2 14.05 3.78 13.18 4.74C13.13 4.8 13.07 4.86 13.02 4.91C12.99 4.88 12.96 4.85 12.94 4.82C12.13 3.9 10.46 2 8 2C6.45 2 4.98 2.61 3.86 3.72C2.75 4.81 2.09 6.27 2.01 7.82C1.93 9.36 2.32 10.7 3.28 12.16C4.14 13.47 6.38 15.53 8.04 16.91C9.75 18.32 11.99 20 13.01 20C14.04 20 16.28 18.32 17.97 16.91C19.62 15.54 21.85 13.48 22.72 12.16C23.37 11.17 24.1 9.79 23.99 7.82ZM21.61 11.43C20.98 12.39 19.2 14.17 17.18 15.85C14.78 17.85 13.35 18.64 13.01 18.67C12.67 18.64 11.24 17.84 8.82 15.83C6.79 14.15 5.01 12.38 4.39 11.43C3.59 10.22 3.27 9.13 3.33 7.89C3.47 5.37 5.56 3.32 8 3.32C9.86 3.32 11.21 4.86 11.94 5.69C12.37 6.18 12.6 6.45 13 6.45C13.41 6.45 13.67 6.16 14.15 5.64C14.94 4.77 16.27 3.32 18 3.32C20.44 3.32 22.53 5.37 22.67 7.89C22.74 9.15 22.42 10.2 21.61 11.43Z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="products-item__text">White chair</p>
+              <span class="products-item__num">$29.00</span>
+            </div>
+            <div class="products-item mix category-RetroTable category-all" style="padding: 80px 23px 38px;">
+              <div class="products-item__img-box" style="margin-bottom: 86px">
+                <img class="products-item__images" src="images/products/4.png" alt="">
+                <div class="products-item__link-box">
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      width="24" height="24">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M21.45 18.8L16.86 14.21C16.18 15.27 15.27 16.18 14.21 16.86L18.8 21.45C19.53 22.18 20.72 22.18 21.45 21.45C22.18 20.72 22.18 19.53 21.45 18.8ZM17 9.5C17 5.36 13.64 2 9.5 2C5.36 2 2 5.36 2 9.5C2 13.64 5.36 17 9.5 17C13.64 17 17 13.64 17 9.5ZM9.5 15.12C6.4 15.12 3.87 12.6 3.87 9.5C3.87 6.4 6.4 3.87 9.5 3.87C12.6 3.87 15.12 6.4 15.12 9.5C15.12 12.6 12.6 15.12 9.5 15.12ZM5.12 9.5L6.37 9.5C6.37 7.78 7.78 6.37 9.5 6.37L9.5 5.12C7.09 5.12 5.12 7.09 5.12 9.5Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 23"
+                      width="26" height="23">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #ffffff
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M2.81 3.63L5.15 3.63L8.47 15.67C8.57 16.02 8.89 16.26 9.26 16.26L19.47 16.26C19.8 16.26 20.08 16.07 20.22 15.78L23.93 7.22C24.04 6.96 24.02 6.67 23.87 6.44C23.72 6.21 23.46 6.07 23.19 6.07L11.9 6.07C11.45 6.07 11.09 6.44 11.09 6.89C11.09 7.34 11.45 7.71 11.9 7.71L21.94 7.71L18.93 14.63L9.87 14.63L6.54 2.6C6.45 2.24 6.12 2 5.76 2L2.81 2C2.37 2 2 2.37 2 2.81C2 3.26 2.37 3.63 2.81 3.63ZM8.48 22C9.5 22 10.33 21.17 10.33 20.15C10.33 19.13 9.5 18.3 8.48 18.3C7.47 18.3 6.64 19.13 6.64 20.15C6.64 21.17 7.47 22 8.48 22ZM20.01 22C20.05 22 20.11 22 20.15 22C20.64 21.96 21.09 21.74 21.41 21.36C21.74 20.99 21.89 20.52 21.86 20.02C21.79 19.01 20.91 18.23 19.89 18.3C18.87 18.37 18.11 19.27 18.18 20.27C18.25 21.24 19.05 22 20.01 22Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"
+                      width="26" height="21">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M23.99 7.82C23.91 6.27 23.25 4.81 22.14 3.72C21.02 2.61 19.55 2 18 2C15.69 2 14.05 3.78 13.18 4.74C13.13 4.8 13.07 4.86 13.02 4.91C12.99 4.88 12.96 4.85 12.94 4.82C12.13 3.9 10.46 2 8 2C6.45 2 4.98 2.61 3.86 3.72C2.75 4.81 2.09 6.27 2.01 7.82C1.93 9.36 2.32 10.7 3.28 12.16C4.14 13.47 6.38 15.53 8.04 16.91C9.75 18.32 11.99 20 13.01 20C14.04 20 16.28 18.32 17.97 16.91C19.62 15.54 21.85 13.48 22.72 12.16C23.37 11.17 24.1 9.79 23.99 7.82ZM21.61 11.43C20.98 12.39 19.2 14.17 17.18 15.85C14.78 17.85 13.35 18.64 13.01 18.67C12.67 18.64 11.24 17.84 8.82 15.83C6.79 14.15 5.01 12.38 4.39 11.43C3.59 10.22 3.27 9.13 3.33 7.89C3.47 5.37 5.56 3.32 8 3.32C9.86 3.32 11.21 4.86 11.94 5.69C12.37 6.18 12.6 6.45 13 6.45C13.41 6.45 13.67 6.16 14.15 5.64C14.94 4.77 16.27 3.32 18 3.32C20.44 3.32 22.53 5.37 22.67 7.89C22.74 9.15 22.42 10.2 21.61 11.43Z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="products-item__text">Retro table</p>
+              <span class="products-item__num">$29.00</span>
+            </div>
+            <div class="products-item mix category-WoodenRadio category-all" style="padding: 53px 17px 38px;">
+              <div class="products-item__img-box">
+                <img class="products-item__images" src="images/products/5.png" alt="">
+                <div class="products-item__link-box">
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      width="24" height="24">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M21.45 18.8L16.86 14.21C16.18 15.27 15.27 16.18 14.21 16.86L18.8 21.45C19.53 22.18 20.72 22.18 21.45 21.45C22.18 20.72 22.18 19.53 21.45 18.8ZM17 9.5C17 5.36 13.64 2 9.5 2C5.36 2 2 5.36 2 9.5C2 13.64 5.36 17 9.5 17C13.64 17 17 13.64 17 9.5ZM9.5 15.12C6.4 15.12 3.87 12.6 3.87 9.5C3.87 6.4 6.4 3.87 9.5 3.87C12.6 3.87 15.12 6.4 15.12 9.5C15.12 12.6 12.6 15.12 9.5 15.12ZM5.12 9.5L6.37 9.5C6.37 7.78 7.78 6.37 9.5 6.37L9.5 5.12C7.09 5.12 5.12 7.09 5.12 9.5Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 23"
+                      width="26" height="23">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #ffffff
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M2.81 3.63L5.15 3.63L8.47 15.67C8.57 16.02 8.89 16.26 9.26 16.26L19.47 16.26C19.8 16.26 20.08 16.07 20.22 15.78L23.93 7.22C24.04 6.96 24.02 6.67 23.87 6.44C23.72 6.21 23.46 6.07 23.19 6.07L11.9 6.07C11.45 6.07 11.09 6.44 11.09 6.89C11.09 7.34 11.45 7.71 11.9 7.71L21.94 7.71L18.93 14.63L9.87 14.63L6.54 2.6C6.45 2.24 6.12 2 5.76 2L2.81 2C2.37 2 2 2.37 2 2.81C2 3.26 2.37 3.63 2.81 3.63ZM8.48 22C9.5 22 10.33 21.17 10.33 20.15C10.33 19.13 9.5 18.3 8.48 18.3C7.47 18.3 6.64 19.13 6.64 20.15C6.64 21.17 7.47 22 8.48 22ZM20.01 22C20.05 22 20.11 22 20.15 22C20.64 21.96 21.09 21.74 21.41 21.36C21.74 20.99 21.89 20.52 21.86 20.02C21.79 19.01 20.91 18.23 19.89 18.3C18.87 18.37 18.11 19.27 18.18 20.27C18.25 21.24 19.05 22 20.01 22Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"
+                      width="26" height="21">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M23.99 7.82C23.91 6.27 23.25 4.81 22.14 3.72C21.02 2.61 19.55 2 18 2C15.69 2 14.05 3.78 13.18 4.74C13.13 4.8 13.07 4.86 13.02 4.91C12.99 4.88 12.96 4.85 12.94 4.82C12.13 3.9 10.46 2 8 2C6.45 2 4.98 2.61 3.86 3.72C2.75 4.81 2.09 6.27 2.01 7.82C1.93 9.36 2.32 10.7 3.28 12.16C4.14 13.47 6.38 15.53 8.04 16.91C9.75 18.32 11.99 20 13.01 20C14.04 20 16.28 18.32 17.97 16.91C19.62 15.54 21.85 13.48 22.72 12.16C23.37 11.17 24.1 9.79 23.99 7.82ZM21.61 11.43C20.98 12.39 19.2 14.17 17.18 15.85C14.78 17.85 13.35 18.64 13.01 18.67C12.67 18.64 11.24 17.84 8.82 15.83C6.79 14.15 5.01 12.38 4.39 11.43C3.59 10.22 3.27 9.13 3.33 7.89C3.47 5.37 5.56 3.32 8 3.32C9.86 3.32 11.21 4.86 11.94 5.69C12.37 6.18 12.6 6.45 13 6.45C13.41 6.45 13.67 6.16 14.15 5.64C14.94 4.77 16.27 3.32 18 3.32C20.44 3.32 22.53 5.37 22.67 7.89C22.74 9.15 22.42 10.2 21.61 11.43Z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="products-item__text">Wooden radio</p>
+              <span class="products-item__num">$29.00</span>
+            </div>
+            <div class="products-item mix category-WoodenChair category-all" style="padding: 45px 20px 38px;">
+              <div class="products-item__img-box">
+                <img class="products-item__images" src="images/products/6.png" alt="">
+                <div class="products-item__link-box">
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      width="24" height="24">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M21.45 18.8L16.86 14.21C16.18 15.27 15.27 16.18 14.21 16.86L18.8 21.45C19.53 22.18 20.72 22.18 21.45 21.45C22.18 20.72 22.18 19.53 21.45 18.8ZM17 9.5C17 5.36 13.64 2 9.5 2C5.36 2 2 5.36 2 9.5C2 13.64 5.36 17 9.5 17C13.64 17 17 13.64 17 9.5ZM9.5 15.12C6.4 15.12 3.87 12.6 3.87 9.5C3.87 6.4 6.4 3.87 9.5 3.87C12.6 3.87 15.12 6.4 15.12 9.5C15.12 12.6 12.6 15.12 9.5 15.12ZM5.12 9.5L6.37 9.5C6.37 7.78 7.78 6.37 9.5 6.37L9.5 5.12C7.09 5.12 5.12 7.09 5.12 9.5Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 23"
+                      width="26" height="23">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #ffffff
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M2.81 3.63L5.15 3.63L8.47 15.67C8.57 16.02 8.89 16.26 9.26 16.26L19.47 16.26C19.8 16.26 20.08 16.07 20.22 15.78L23.93 7.22C24.04 6.96 24.02 6.67 23.87 6.44C23.72 6.21 23.46 6.07 23.19 6.07L11.9 6.07C11.45 6.07 11.09 6.44 11.09 6.89C11.09 7.34 11.45 7.71 11.9 7.71L21.94 7.71L18.93 14.63L9.87 14.63L6.54 2.6C6.45 2.24 6.12 2 5.76 2L2.81 2C2.37 2 2 2.37 2 2.81C2 3.26 2.37 3.63 2.81 3.63ZM8.48 22C9.5 22 10.33 21.17 10.33 20.15C10.33 19.13 9.5 18.3 8.48 18.3C7.47 18.3 6.64 19.13 6.64 20.15C6.64 21.17 7.47 22 8.48 22ZM20.01 22C20.05 22 20.11 22 20.15 22C20.64 21.96 21.09 21.74 21.41 21.36C21.74 20.99 21.89 20.52 21.86 20.02C21.79 19.01 20.91 18.23 19.89 18.3C18.87 18.37 18.11 19.27 18.18 20.27C18.25 21.24 19.05 22 20.01 22Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"
+                      width="26" height="21">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M23.99 7.82C23.91 6.27 23.25 4.81 22.14 3.72C21.02 2.61 19.55 2 18 2C15.69 2 14.05 3.78 13.18 4.74C13.13 4.8 13.07 4.86 13.02 4.91C12.99 4.88 12.96 4.85 12.94 4.82C12.13 3.9 10.46 2 8 2C6.45 2 4.98 2.61 3.86 3.72C2.75 4.81 2.09 6.27 2.01 7.82C1.93 9.36 2.32 10.7 3.28 12.16C4.14 13.47 6.38 15.53 8.04 16.91C9.75 18.32 11.99 20 13.01 20C14.04 20 16.28 18.32 17.97 16.91C19.62 15.54 21.85 13.48 22.72 12.16C23.37 11.17 24.1 9.79 23.99 7.82ZM21.61 11.43C20.98 12.39 19.2 14.17 17.18 15.85C14.78 17.85 13.35 18.64 13.01 18.67C12.67 18.64 11.24 17.84 8.82 15.83C6.79 14.15 5.01 12.38 4.39 11.43C3.59 10.22 3.27 9.13 3.33 7.89C3.47 5.37 5.56 3.32 8 3.32C9.86 3.32 11.21 4.86 11.94 5.69C12.37 6.18 12.6 6.45 13 6.45C13.41 6.45 13.67 6.16 14.15 5.64C14.94 4.77 16.27 3.32 18 3.32C20.44 3.32 22.53 5.37 22.67 7.89C22.74 9.15 22.42 10.2 21.61 11.43Z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="products-item__text">Wooden chair</p>
+              <span class="products-item__num">$29.00</span>
+            </div>
+            <div class="products-item mix category-WhiteChair category-all" style="padding: 51px 19px 38px;">
+              <div class="products-item__img-box">
+                <img class="products-item__images" src="images/products/7.png" alt="">
+                <div class="products-item__link-box">
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      width="24" height="24">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M21.45 18.8L16.86 14.21C16.18 15.27 15.27 16.18 14.21 16.86L18.8 21.45C19.53 22.18 20.72 22.18 21.45 21.45C22.18 20.72 22.18 19.53 21.45 18.8ZM17 9.5C17 5.36 13.64 2 9.5 2C5.36 2 2 5.36 2 9.5C2 13.64 5.36 17 9.5 17C13.64 17 17 13.64 17 9.5ZM9.5 15.12C6.4 15.12 3.87 12.6 3.87 9.5C3.87 6.4 6.4 3.87 9.5 3.87C12.6 3.87 15.12 6.4 15.12 9.5C15.12 12.6 12.6 15.12 9.5 15.12ZM5.12 9.5L6.37 9.5C6.37 7.78 7.78 6.37 9.5 6.37L9.5 5.12C7.09 5.12 5.12 7.09 5.12 9.5Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 23"
+                      width="26" height="23">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #ffffff
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M2.81 3.63L5.15 3.63L8.47 15.67C8.57 16.02 8.89 16.26 9.26 16.26L19.47 16.26C19.8 16.26 20.08 16.07 20.22 15.78L23.93 7.22C24.04 6.96 24.02 6.67 23.87 6.44C23.72 6.21 23.46 6.07 23.19 6.07L11.9 6.07C11.45 6.07 11.09 6.44 11.09 6.89C11.09 7.34 11.45 7.71 11.9 7.71L21.94 7.71L18.93 14.63L9.87 14.63L6.54 2.6C6.45 2.24 6.12 2 5.76 2L2.81 2C2.37 2 2 2.37 2 2.81C2 3.26 2.37 3.63 2.81 3.63ZM8.48 22C9.5 22 10.33 21.17 10.33 20.15C10.33 19.13 9.5 18.3 8.48 18.3C7.47 18.3 6.64 19.13 6.64 20.15C6.64 21.17 7.47 22 8.48 22ZM20.01 22C20.05 22 20.11 22 20.15 22C20.64 21.96 21.09 21.74 21.41 21.36C21.74 20.99 21.89 20.52 21.86 20.02C21.79 19.01 20.91 18.23 19.89 18.3C18.87 18.37 18.11 19.27 18.18 20.27C18.25 21.24 19.05 22 20.01 22Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"
+                      width="26" height="21">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M23.99 7.82C23.91 6.27 23.25 4.81 22.14 3.72C21.02 2.61 19.55 2 18 2C15.69 2 14.05 3.78 13.18 4.74C13.13 4.8 13.07 4.86 13.02 4.91C12.99 4.88 12.96 4.85 12.94 4.82C12.13 3.9 10.46 2 8 2C6.45 2 4.98 2.61 3.86 3.72C2.75 4.81 2.09 6.27 2.01 7.82C1.93 9.36 2.32 10.7 3.28 12.16C4.14 13.47 6.38 15.53 8.04 16.91C9.75 18.32 11.99 20 13.01 20C14.04 20 16.28 18.32 17.97 16.91C19.62 15.54 21.85 13.48 22.72 12.16C23.37 11.17 24.1 9.79 23.99 7.82ZM21.61 11.43C20.98 12.39 19.2 14.17 17.18 15.85C14.78 17.85 13.35 18.64 13.01 18.67C12.67 18.64 11.24 17.84 8.82 15.83C6.79 14.15 5.01 12.38 4.39 11.43C3.59 10.22 3.27 9.13 3.33 7.89C3.47 5.37 5.56 3.32 8 3.32C9.86 3.32 11.21 4.86 11.94 5.69C12.37 6.18 12.6 6.45 13 6.45C13.41 6.45 13.67 6.16 14.15 5.64C14.94 4.77 16.27 3.32 18 3.32C20.44 3.32 22.53 5.37 22.67 7.89C22.74 9.15 22.42 10.2 21.61 11.43Z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="products-item__text">White chair</p>
+              <span class="products-item__num">$29.00</span>
+            </div>
+            <div class="products-item mix category-RetroTable category-all" style="padding: 58px 16px 38px;">
+              <div class="products-item__img-box">
+                <img class="products-item__images" src="images/products/8.png" alt="">
+                <div class="products-item__link-box">
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      width="24" height="24">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M21.45 18.8L16.86 14.21C16.18 15.27 15.27 16.18 14.21 16.86L18.8 21.45C19.53 22.18 20.72 22.18 21.45 21.45C22.18 20.72 22.18 19.53 21.45 18.8ZM17 9.5C17 5.36 13.64 2 9.5 2C5.36 2 2 5.36 2 9.5C2 13.64 5.36 17 9.5 17C13.64 17 17 13.64 17 9.5ZM9.5 15.12C6.4 15.12 3.87 12.6 3.87 9.5C3.87 6.4 6.4 3.87 9.5 3.87C12.6 3.87 15.12 6.4 15.12 9.5C15.12 12.6 12.6 15.12 9.5 15.12ZM5.12 9.5L6.37 9.5C6.37 7.78 7.78 6.37 9.5 6.37L9.5 5.12C7.09 5.12 5.12 7.09 5.12 9.5Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 23"
+                      width="26" height="23">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #ffffff
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M2.81 3.63L5.15 3.63L8.47 15.67C8.57 16.02 8.89 16.26 9.26 16.26L19.47 16.26C19.8 16.26 20.08 16.07 20.22 15.78L23.93 7.22C24.04 6.96 24.02 6.67 23.87 6.44C23.72 6.21 23.46 6.07 23.19 6.07L11.9 6.07C11.45 6.07 11.09 6.44 11.09 6.89C11.09 7.34 11.45 7.71 11.9 7.71L21.94 7.71L18.93 14.63L9.87 14.63L6.54 2.6C6.45 2.24 6.12 2 5.76 2L2.81 2C2.37 2 2 2.37 2 2.81C2 3.26 2.37 3.63 2.81 3.63ZM8.48 22C9.5 22 10.33 21.17 10.33 20.15C10.33 19.13 9.5 18.3 8.48 18.3C7.47 18.3 6.64 19.13 6.64 20.15C6.64 21.17 7.47 22 8.48 22ZM20.01 22C20.05 22 20.11 22 20.15 22C20.64 21.96 21.09 21.74 21.41 21.36C21.74 20.99 21.89 20.52 21.86 20.02C21.79 19.01 20.91 18.23 19.89 18.3C18.87 18.37 18.11 19.27 18.18 20.27C18.25 21.24 19.05 22 20.01 22Z" />
+                    </svg>
+                  </a>
+                  <a class="products-item__link" href="#">
+                    <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"
+                      width="26" height="21">
+                      <title>Forma 1</title>
+                      <style>
+                        tspan {
+                          white-space: pre
+                        }
+
+                        .shp0 {
+                          fill: #a3bbc8
+                        }
+                      </style>
+                      <path id="Forma 1" class="shp0"
+                        d="M23.99 7.82C23.91 6.27 23.25 4.81 22.14 3.72C21.02 2.61 19.55 2 18 2C15.69 2 14.05 3.78 13.18 4.74C13.13 4.8 13.07 4.86 13.02 4.91C12.99 4.88 12.96 4.85 12.94 4.82C12.13 3.9 10.46 2 8 2C6.45 2 4.98 2.61 3.86 3.72C2.75 4.81 2.09 6.27 2.01 7.82C1.93 9.36 2.32 10.7 3.28 12.16C4.14 13.47 6.38 15.53 8.04 16.91C9.75 18.32 11.99 20 13.01 20C14.04 20 16.28 18.32 17.97 16.91C19.62 15.54 21.85 13.48 22.72 12.16C23.37 11.17 24.1 9.79 23.99 7.82ZM21.61 11.43C20.98 12.39 19.2 14.17 17.18 15.85C14.78 17.85 13.35 18.64 13.01 18.67C12.67 18.64 11.24 17.84 8.82 15.83C6.79 14.15 5.01 12.38 4.39 11.43C3.59 10.22 3.27 9.13 3.33 7.89C3.47 5.37 5.56 3.32 8 3.32C9.86 3.32 11.21 4.86 11.94 5.69C12.37 6.18 12.6 6.45 13 6.45C13.41 6.45 13.67 6.16 14.15 5.64C14.94 4.77 16.27 3.32 18 3.32C20.44 3.32 22.53 5.37 22.67 7.89C22.74 9.15 22.42 10.2 21.61 11.43Z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="products-item__text">Retro table</p>
+              <span class="products-item__num">$29.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="content">
+      <div class="container">
+        <div class="content__items">
+          <div class="content__item">
+            <img class="content__item-img" src="images/content/1.png" alt="">
+            <div class="content__item-info">
+              <p class="content__item-title">Mirum Notare Tellus</p>
+              <p class="content__item-text">LEDCornBulb Lamp 5W 7W 10W 12W 15W E26 E27LEDCornLight</p>
+              <button class="content__item-btn">
+                View More
+                <img src="images/content/arrow-right.svg" alt="">
+              </button>
+            </div>
+          </div>
+          <div class="content__item-box">
+            <img class="content__item-images" src="images/content/2.png" alt="">
+            <div class="content__item-info">
+              <p class="content__item-info-title">Mirum Notare Tellus</p>
+              <p class="content__item-info-text">LEDCornBulb Lamp 5W 7W 10W 12W 15W E26 E27LEDCornLight</p>
+              <button class="content__item-btn">
+                View More
+                <img src="images/content/arrow-right.svg" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="design">
+      <div class="container">
+        <div class="design__inner">
+          <h2 class="title design__title">New Design</h2>
+          <ul class="design__nav">
+            <li class="design__nav-item">
+              <button class="design__nav-link design__nav-link--active" data-filter="all">All</button>
+            </li>
+            <li class="design__nav-item">
+              <button class="design__nav-link" data-filter=".category-furnitures">Furnitures</button>
+            </li>
+            <li class="design__nav-item">
+              <button class="design__nav-link" data-filter=".category-chairs">Chairs</button>
+            </li>
+            <li class="design__nav-item">
+              <button class="design__nav-link" data-filter=".category-lighting">Lighting</button>
+            </li>
+            <li class="design__nav-item">
+              <buton class="design__nav-link" data-filter=".category-decor">Decor</buton>
+            </li>
+          </ul>
+          <div class="design__category-box">
+            <div class="design__category mix category-chairs category-furnitures">
+              <p class="design__category-text" style="max-width: 171px;">
+                Beat Flat Pendant Black
+              </p>
+              <div class="design__category-content">
+                <span class="design__category-span">Classic</span>
+                <img class="design__category-img" src="images/design/1.png" alt="">
+              </div>
+            </div>
+            <div class="design__category mix category-chairs">
+              <p class="design__category-text" style="max-width: 161px;">
+                Lampe Sur Pieds Bamboo
+              <div class="design__category-content">
+                <span class="design__category-span">Classic</span>
+                <img class="design__category-img" style="margin-left: 10px;" src="images/design/2.png" alt="">
+              </div>
+              </p>
+            </div>
+            <div class="design__category mix category-lighting" style="padding-right: 56px;">
+              <p class="design__category-text" style="max-width: 145px;">
+                Rattan Rocking Chair
+              </p>
+              <div class="design__category-content" style="justify-content: space-between;">
+                <span class="design__category-span">Classic</span>
+                <img class="design__category-img" style="margin-top: -45px;" src="images/design/3.png" alt="">
+              </div>
+            </div>
+            <div class="design__category mix category-lighting">
+              <p class="design__category-text" style="max-width: 145px;">
+                Rattan Rocking Chair
+              </p>
+              <div class="design__category-content">
+                <span class="design__category-span">Classic</span>
+                <img class="design__category-img" style="margin-left: 8px;" src="images/design/4.png" alt="">
+              </div>
+            </div>
+            <div class="design__category mix category-decor" style="padding-right: 30px;">
+              <p class="design__category-text" style="max-width: 145px;">
+                Rattan Rocking Chair
+              </p>
+              <div class="design__category-content" style="justify-content: space-between;">
+                <span class="design__category-span">Classic</span>
+                <img class="design__category-img" style="margin-top: -62px;" src="images/design/5.png" alt="">
+              </div>
+            </div>
+            <div class="design__category mix category-decor">
+              <p class="design__category-text" style="max-width: 161px;">
+                Lampe Sur Pieds Bamboo
+              </p>
+              <div class="design__category-content">
+                <span class="design__category-span">Classic</span>
+                <img class="design__category-img" src="images/design/6.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <div class="container">
+        <a class="video__link" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+          <img class="video__play" src="images/video/play.svg" alt="play button">
+        </a>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <div class="blog__inner">
+          <div class="blog__info">
+            <h2 class="title">Our Insights & Articles</h2>
+            <a class="blog__link" href="#">
+              View All
+              <img src="images/blog/share.svg" alt="">
+            </a>
+          </div>
+          <div class="blog__items">
+            <div class="blog__item">
+              <img class="blog__item-img" src="images/blog/1.png" alt="">
+              <div class="blog__item-content">
+                <a class="blog__item-link" href="#">NEWS</a>
+                <p class="blog__item-text">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam</p>
+                <div class="blog__item-wrap">
+                  <p class="blog__item-wrap-text">28 JANUARY, 2020</p>
+                  <a class="blog__item-wrap-link">BY ADMIN</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <img class="blog__item-img" src="images/blog/2.png" alt="">
+              <div class="blog__item-content">
+                <a class="blog__item-link" href="#">NEWS</a>
+                <p class="blog__item-text">Aonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore</p>
+                <div class="blog__item-wrap">
+                  <p class="blog__item-wrap-text">28 JANUARY, 2020</p>
+                  <a class="blog__item-wrap-link">BY ADMIN</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <img class="blog__item-img" src="images/blog/3.png" alt="">
+              <div class="blog__item-content">
+                <a class="blog__item-link" href="#">NEWS</a>
+                <p class="blog__item-text">Rncididunt ut labore et dolore magna aliqua. Ut enim</p>
+                <div class="blog__item-wrap">
+                  <p class="blog__item-wrap-text">28 JANUARY, 2020</p>
+                  <a class="blog__item-wrap-link">BY ADMIN</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client">
+      <div class="container">
+        <div class="client__wrapper">
+          <img class="client__wrapper-img" src="images/client/1.svg" alt="">
+          <img class="client__wrapper-img" src="images/client/2.svg" alt="">
+          <img class="client__wrapper-img" src="images/client/3.png" alt="">
+          <img class="client__wrapper-img" src="images/client/4.png" alt="">
+          <img class="client__wrapper-img" src="images/client/5.png" alt="">
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer-top">
+          <div class="footer-top__item">
+            <a class="logo footer-top__logo" href="#">
+              <img class="logo__img" src="images/header/logo.png" alt="logo">
+            </a>
+            <div class="footer-top__box" style="max-width: 178px;">
+              ADDRESS:
+              <a class="footer-top__adress" href="#"> 4772 Wines Lane
+                Houston, TX 77032</a>
+            </div>
+            <div class="footer-top__box">
+              Telephone:
+              <a class="footer-top__email" href="#"> +832-347-5843
+              </a>
+            </div>
+            <div class="footer-top__box">
+              Email:
+              <a class="footer-top__phone" href="#"> contact@Glee.com</a>
+            </div>
+          </div>
+          <div class="footer-top__item">
+            <h6 class="footer-top__title">Services</h6>
+            <ul class="footer-top__list">
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">About us</a>
+              </li>
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">Return Policy</a>
+              </li>
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">Our Blog</a>
+              </li>
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">Contact Us</a>
+              </li>
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">Terms & Condition</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__item">
+            <h6 class="footer-top__title">Account</h6>
+            <ul class="footer-top__list">
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">Your Account</a>
+              </li>
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">Checkout</a>
+              </li>
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">Login</a>
+              </li>
+              <li class="footer-top__list-item">
+                <a class="footer-top__list-link" href="#">Register</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__item">
+            <h6 class="footer-top__title">newsletter</h6>
+            <p class="footer-top__text">Subscribe by our newsletter and get
+              update protidin.</p>
+            <form class="footer-top__form" action="#">
+              <input class="footer-top__form-email" type="email" name="" id="" placeholder="Email address" required>
+              <button class="footer-top__form-btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-bottom__text">©2020 CopyRight Example. All rights reserved.</p>
+          <div class="footer-bottom__wrap">
+            <a class="footer-bottom__link" href="#">Home</a>
+            <span class="footer-bottom__span">|</span>
+            <a class="footer-bottom__link" href="#">About</a>
+            <span class="footer-bottom__span">|</span>
+            <a class="footer-bottom__link" href="#">Blog</a>
+            <span class="footer-bottom__span">|</span>
+            <a class="footer-bottom__link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/main.min.js"></script>
 </body>
 

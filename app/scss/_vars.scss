@@ -1,5 +1,8 @@
 //$accent: #EBEDF3;
 $default: #436372;
+$footer-link: #7b7b7b;
+$border: #a3bbc8;
+$footerTitle: #1f2044;
 //$title: #000;
 ////$colorBtn: #ffffff;
 //$bg: #15256E;
@@ -7,6 +10,11 @@ $default: #436372;
 //$error: #FE7F0B;
 //$errorAccent: #1F78B4;
 ////
+%Rubik-Regular-400 {
+  font-family: "Rubik-Regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 %Rubik-Medium-500 {
   font-family: "Rubik-Medium", sans-serif;
   font-weight: 500;
@@ -17,8 +25,18 @@ $default: #436372;
   font-weight: 400;
   font-style: normal;
 }
-%GothamPro-Bold-700 {
-  font-family: "GothamPro-Bold", sans-serif;
+%DMSans-Medium-500 {
+  font-family: "DMSans-Medium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+%DMSans-Bold-700 {
+  font-family: "DMSans-Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+%Poppins-Bold-700 {
+  font-family: "Poppins-Bold", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
